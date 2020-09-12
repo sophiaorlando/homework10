@@ -78,7 +78,7 @@ answerArr = () => {
                                     // console.log(employeeObjArray)
                                     fs.writeFile("./output/index.html", render(employeeObjArray), function (err) {
                                         if (err) throw err;
-                                        console.log('Error!')
+                                        console.log('Check the index.html!')
                                     })
 
                                 )
@@ -115,7 +115,7 @@ answerArr = () => {
                                 } else (
                                     fs.writeFile("./output/index.html", render(employeeObjArray), function (err) {
                                         if (err) throw err;
-                                        console.log('Error!')
+                                        console.log('Check the index.html!')
                                     }))
                             })
                     })
@@ -149,7 +149,7 @@ answerArr = () => {
                                 } else (
                                     fs.writeFile("./output/index.html", render(employeeObjArray), function (err) {
                                         if (err) throw err;
-                                        console.log('Error!')
+                                        console.log('Check the index.html!')
                                     }))
 
                             })
